@@ -1,5 +1,5 @@
 CREATE TABLE `detalles` (
-  `id_pedidos` int(11) NOT NULL AUTO_INCREMENT,
+  `id_pedidos` int(21) NOT NULL AUTO_INCREMENT,
   `precio` int(11) NOT NULL,
   `id_producto` int(11) NOT NULL,
   `producto` varchar(45) NOT NULL,
