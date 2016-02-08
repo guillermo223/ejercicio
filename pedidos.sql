@@ -1,6 +1,6 @@
 CREATE TABLE `pedidos` (
   `id_pedidos` int(11) NOT NULL,
-  `codigo` varchar(45) NOT NULL,
+  `codigo` varchar(46) NOT NULL,
   `fecha_creacion` datetime NOT NULL,
   `fecha_aceptacion` datetime NOT NULL,
   `comentarios` longtext NOT NULL,
